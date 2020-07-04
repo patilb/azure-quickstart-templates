@@ -3,7 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 variables:
-  ARM_PASS:${administratorLoginPassword}
+  ARM_PASS: $(administratorLoginPassword)
 
 trigger:
 - none
